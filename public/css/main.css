@@ -1,0 +1,59 @@
+.default {
+    /*Responsive image CSS and width on whole monitor*/
+    background: url( ../img/musician2.jpg );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+	overflow: auto;
+}
+.container {
+    margin-top: 20px;
+}
+.jumbotron {
+    opacity: .85;
+    box-shadow: 8px 8px 8px gray;
+}
+.panel-default {
+    margin-top: 30px;
+    opacity: .9;
+    box-shadow: 8px 8px 8px black;
+}
+.btn-primary {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imageOne {
+  background: url( ../img/bw-microphone.jpg ) ;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: auto;
+}
+.well {
+    opacity: .97;
+    box-shadow: 8px 8px 10px silver;
+}
+.navbar-default {
+    opacity: .9;
+}
+#title-two  {
+	text-align: center;
+}
+.text-center {
+	color:  white;
+}
+#main-title {
+	text-align: center;
+}
+.song-titles {
+	text-align: center;
+}
+.date {
+	color: rgb(9, 187, 193);
+}
+.date-today {
+	margin-top: 5px;
+}
