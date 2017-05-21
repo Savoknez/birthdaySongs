@@ -36,27 +36,27 @@
         <div class="col-lg-12">
             <div class="well">
                 <h1 id = "main-title">Ces chansons ont été populaires lorsque vous êtes né</h1><br>
-					<ul>
-						<h4 class="song-titles">Vous avez choisi les résultats pour la date: <i><u class ="date" title="Date">{{ $day . '-' . $month . '-' . $year }}</u></i></h4>
-						<h4 class="song-titles">Le jour où vous êtes né était: <i><u class ="date" title="Day of birth">{{ $dayOfBirth }}</u></i></h4><br>
-						{{-- <li>Week: {{ var_dump((int)$week)  }}</li> --}}
+				<ul class="center-content">
+					<h4 class="song-titles">Vous avez choisi les résultats pour la date: <i><u class ="date" title="Date">{{ $day . '-' . $month . '-' . $year }}</u></i></h4>
+					<h4 class="song-titles">Le jour où vous êtes né était: <i><u class ="date" title="Day of birth">{{ $dayOfBirth }}</u></i></h4><br>
+					{{-- <li>Week: {{ var_dump((int)$week)  }}</li> --}}
 
-						<!-- 16:9 aspect ratio -->
-						<h2 class="song-titles">{{ $first_artist . ' - ' .  $first_song}}</h2>
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ $first_video }}"></iframe>
-						</div><br><hr>
+					<!-- 16:9 aspect ratio -->
+					<h2 class="song-titles">{{ $first_artist . ' - ' .  $first_song}}</h2>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ $first_video }}"></iframe>
+					</div><br><hr>
 
-						<h2 class="song-titles">{{ $second_artist . ' - ' .  $second_song}}</h2>
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ $second_video }}"></iframe>
-						</div><br><hr>
+					<h2 class="song-titles">{{ $second_artist . ' - ' .  $second_song}}</h2>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ $second_video }}"></iframe>
+					</div><br><hr>
 
-						<h2 class="song-titles">{{ $third_artist . ' - ' .  $third_song}}</h2>
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ $third_video }}"></iframe>
-						</div><br>
-	                </ul>
+					<h2 class="song-titles">{{ $third_artist . ' - ' .  $third_song}}</h2>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ $third_video }}"></iframe>
+					</div><br>
+                </ul>
             </div>
         </div>
     </div>

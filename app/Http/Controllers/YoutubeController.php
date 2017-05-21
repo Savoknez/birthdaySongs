@@ -126,8 +126,7 @@ class YoutubeController extends Controller
 		$week = date('W', strtotime($date_string) );
 
 		//Current day and day of birth
-		$today = Carbon::now()->format('l jS \\of F Y');
-		// $week = Carbon::createFromFormat('Y-m-d H', $date_string )->format('W');
+		$today = Carbon::now()->format('l jS \\of F Y');		
 		$date = "$day-$monthNum-$year";
 		$dayOfBirth = date('l', strtotime($date));
 
@@ -170,8 +169,6 @@ class YoutubeController extends Controller
 			$third_array = array_first($thirdVideoList);
 			$third_video = $third_array->id->videoId;
 
-			// Session::flash('success', 'You find what you needed! Click here to dismiss this alert.');
-			// $request->session()->flash('success', 'You find what you needed! Click here to dismiss this alert.');
 			flash('You found what you needed! This message will disappear now.')->success();
 
 			return view('songs.show')

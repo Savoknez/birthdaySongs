@@ -32,6 +32,9 @@
   background-size: cover;
   overflow: auto;
 }
+.center-content {
+	margin-right: 40px;
+}
 .well {
     opacity: .97;
     box-shadow: 8px 8px 10px silver;
@@ -55,5 +58,5 @@
 	color: rgb(9, 187, 193);
 }
 .date-today {
-	margin-top: 5px;
+	margin-top: 6px;
 }
