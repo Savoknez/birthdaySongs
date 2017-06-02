@@ -38,8 +38,7 @@
                 <h1 id = "main-title">Ces chansons ont été populaires lorsque vous êtes né</h1><br>
 				<ul class="center-content">
 					<h4 class="song-titles">Vous avez choisi les résultats pour la date: <i><u class ="date" title="Date">{{ $day . '-' . $month . '-' . $year }}</u></i></h4>
-					<h4 class="song-titles">Le jour où vous êtes né était: <i><u class ="date" title="Day of birth">{{ $dayOfBirth }}</u></i></h4><br>
-					{{-- <li>Week: {{ var_dump((int)$week)  }}</li> --}}
+					<h4 class="song-titles">Le jour où vous êtes né était: <i><u class ="date" title="Day of birth">{{ $dayOfBirth }}</u></i></h4><br>					
 
 					<!-- 16:9 aspect ratio -->
 					<h2 class="song-titles">{{ $first_artist . ' - ' .  $first_song}}</h2>

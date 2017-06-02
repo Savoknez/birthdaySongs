@@ -37,7 +37,6 @@
 			<ul class="song-titles">
 				<p>Your current address is: <a href="{{ url()->current() }}">{{ url()->current() }}</a> </p><hr>
 				<h4>Vous avez choisi les résultats pour la date: <i><u id ="date" title="Date">{{ $day . '-' . $month . '-' . $year }}</u> </i></h4><br>
-				{{-- <li>{{ var_dump((int)$week) }}</li> --}}
 			</ul>
 		</div>
 	</div>
